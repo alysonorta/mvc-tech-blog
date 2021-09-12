@@ -1,5 +1,5 @@
 //Dependencies
-const routes = require ('./Develop/controllers')
+const routes = require ('./controllers')
 const path = require('path');
 
 //Express dependencies
@@ -9,7 +9,7 @@ const hbs = exphbs.create({});
 const session = require ('express-session');
 
 //Sequelize dependencies
-const sequelize = require('./Develop/config/connection');
+const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
