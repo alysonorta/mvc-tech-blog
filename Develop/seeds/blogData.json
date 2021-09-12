@@ -1,0 +1,14 @@
+[
+    {
+        "blog_title": "MVC",
+        "description": "A blog post about the MVC paradigm"
+    },
+    {
+        "blog_title": "What is JavaScript?",
+        "description": "Learn about JavaScript"
+    },
+    {
+        "blog_title": "How to use Bootstrap",
+        "description": "Learn the ins and outs of Bootstrap"
+    }
+]
