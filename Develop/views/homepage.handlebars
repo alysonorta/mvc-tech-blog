@@ -1,0 +1,12 @@
+{{#each blog as |blog| }}
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{blog.blog_title}}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{blog.date_created}}</h6>
+    <p class="card-text">{{blog.description}}</p>
+    <h6 class="card-subtitle mb-2 text-muted">{{blog.user_id}}</h6>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+{{/each}}
