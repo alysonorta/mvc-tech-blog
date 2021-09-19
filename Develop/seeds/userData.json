@@ -1,14 +1,17 @@
 [
     {
         "name": "Alyson Orta",
-        "id": ""
+        "email": "alyson@gmail.com",
+        "password": "password123"
     },
     {
         "name": "Bob Smith",
-        "id": ""
+        "email": "bob@gmail.com",
+        "password": "password123"
     },
     {
         "name": "Sarah Johnson",
-        "id": ""
+        "email": "sarah@gmail.com",
+        "password": "password123"
     }
 ]
